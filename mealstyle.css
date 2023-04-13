@@ -1,41 +1,46 @@
 body {
-    color: rgb(196, 255, 162);
-    text-align: center;
-    margin: auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(https://i.pinimg.com/564x/98/1e/46/981e464923473b7ae3601e339ce894ec.jpg);
+  color: rgb(196, 255, 162);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(https://i.pinimg.com/564x/98/1e/46/981e464923473b7ae3601e339ce894ec.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.menu {
-    background-color: rgb(143, 115, 243);
-    margin: 150px;
-    margin-top: -22px;
-    margin-bottom: -12px;
+
+header {
+  background-color: rgb(214, 124, 187);
+  padding: 10px;
 }
-.week {
-    background-color: rgb(214, 124, 187);
-    margin: 150px;
-    margin-bottom:35px;
-    margin-top:-22px;
+
+main {
+  background-color: rgb(143, 115, 243);
+  padding: 10px;
 }
-.space {
-    background-color: rgb(143, 115, 243);
-    margin: 150px;
-    margin-top: -16px;
-    color: rgb(143, 115, 243)
+
+section {
+  padding: 10px;
 }
+
+h3, p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
 a {
-    color: black;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  
-  a:hover {
-    color: rgb(214, 124, 187);
-  }
-  footer {
-    margin-top: -150px;
-    margin-bottom: 5px;
-    font-size: small;
-  }
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(214, 124, 187);
+}
+
+footer {
+  margin-top: 5px;
+  font-size: small;
+}
